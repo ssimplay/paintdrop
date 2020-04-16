@@ -1,0 +1,167 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+img {
+  border: 0; }
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #000; }
+
+.hidden {
+  display: none; }
+
+button {
+  background: none;
+  border: 0; }
+
+.nanumpenscript * {
+  font-family: 'Nanum Pen Script', cursive; }
+
+@font-face {
+  font-family: 'NanumBarunpen';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+#header {
+  position: absolute;
+  width: 100%; }
+  #header h1 {
+    text-align: center;
+    padding: 12px 0;
+    position: relative;
+    margin-bottom: 20px;
+    box-sizing: border-box; }
+
+.gnb {
+  text-align: center;
+  position: sticky;
+  top: 0; }
+  .gnb li {
+    display: inline-block;
+    padding: 0 32px; }
+    .gnb li a {
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 30px;
+      color: #312828; }
+      .gnb li a:hover {
+        opacity: 0.5; }
+
+#footer {
+  background: #fff5bf;
+  text-align: center;
+  display: block;
+  height: 180px;
+  box-sizing: border-box;
+  padding: 32px 0; }
+  #footer ul {
+    overflow: hidden;
+    margin-bottom: 32px; }
+    #footer ul li {
+      display: inline-block;
+      margin: 0 8px; }
+      #footer ul li:hover {
+        opacity: 0.5; }
+  #footer p {
+    color: #2e2e2e;
+    font-family: 'NanumBarunpen';
+    font-size: 18px;
+    letter-spacing: -1px; }
+
+div, .sto figure {
+  width: 1280px;
+  margin: 60px auto; }
+
+.visual {
+  background: url(/images/visual.png) no-repeat center bottom, linear-gradient(#fff5bf 80%, #fff 10%);
+  height: 1000px;
+  margin-bottom: 160px; }
+
+div {
+  text-align: center; }
+
+h3 {
+  text-align: center;
+  color: #b71023;
+  display: inline-block;
+  padding: 4px 72px;
+  margin: 24px 0;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 24px;
+  background: url(/images/title_l.png) no-repeat left center, url(/images/title_r.png) no-repeat right center; }
+
+h4 {
+  color: #2e2e2e; }
+
+p {
+  color: #717171; }
+
+.cha ul li {
+  display: inline-block;
+  width: 28%;
+  margin: 20px 1%; }
+  .cha ul li figcaption {
+    margin: 20px 0;
+    font-family: 'NanumBarunpen'; }
+    .cha ul li figcaption h4 {
+      margin-bottom: 12px;
+      font-size: 18px; }
+    .cha ul li figcaption p {
+      line-height: 21px;
+      font-size: 16px; }
+  .cha ul li span {
+    display: block; }
+
+.sto {
+  background: linear-gradient(to left, #fff 70%, #fff5bf 30%);
+  overflow: hidden;
+  width: auto;
+  padding-bottom: 160px; }
+  .sto figure {
+    margin: 160px auto; }
+    .sto figure img {
+      float: left; }
+    .sto figure figcaption {
+      float: left;
+      margin: 60px 80px;
+      font-family: 'NanumBarunpen';
+      text-align: left; }
+      .sto figure figcaption h4 {
+        font-size: 20px;
+        margin-bottom: 16px; }
+      .sto figure figcaption p {
+        line-height: 22px; }
+      .sto figure figcaption span {
+        display: block; }
+
+.qa ul {
+  overflow: hidden; }
+  .qa ul li {
+    float: left;
+    width: 26%;
+    margin: 20px 3.5%;
+    background: #d4d4d4;
+    font-family: 'NanumBarunpen';
+    height: 480px;
+    box-sizing: border-box;
+    padding: 60px 0;
+    letter-spacing: -1px;
+    cursor: pointer; }
+    .qa ul li:hover {
+      background: #fff5bf; }
+    .qa ul li h4 {
+      font-size: 20px;
+      margin-bottom: 20px; }
+    .qa ul li span {
+      display: block; }
+
+.banner {
+  width: 100%;
+  background: url(/images/banner.jpg) no-repeat center center fixed;
+  height: 440px; }
+
+/*# sourceMappingURL=main.css.map */
