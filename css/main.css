@@ -39,8 +39,7 @@ button {
 
 .gnb {
   text-align: center;
-  position: sticky;
-  top: 0; }
+  position: relative; }
   .gnb li {
     display: inline-block;
     padding: 0 32px; }
@@ -163,5 +162,14 @@ p {
   width: 100%;
   background: url(../images/banner.jpg) no-repeat center center fixed;
   height: 440px; }
+
+.gal ul {
+  overflow: hidden;
+  width: 68%;
+  margin: 0 auto; }
+  .gal ul li {
+    float: left;
+    width: 48%;
+    margin: 4px 1%; }
 
 /*# sourceMappingURL=main.css.map */
