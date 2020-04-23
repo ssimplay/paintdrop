@@ -1,0 +1,26 @@
+div, .sto figure {
+  width: 98%;
+  margin: 60px 1%; }
+
+.cha ul li {
+  width: 40%;
+  margin: 20px 4%; }
+
+.sto {
+  background: linear-gradient(to left, #fff 50%, #fff5bf 50%); }
+  .sto figure img {
+    float: none; }
+  .sto figure figcaption {
+    float: none;
+    text-align: center; }
+
+.qa ul li {
+  float: none;
+  width: 36%;
+  margin: 20px 32%; }
+
+.gal ul {
+  width: 70%;
+  margin: 0 15%; }
+
+/*# sourceMappingURL=main_t.css.map */

@@ -166,7 +166,7 @@ p {
 .gal ul {
   overflow: hidden;
   width: 68%;
-  margin: 0 auto; }
+  margin: 0 16%; }
   .gal ul li {
     float: left;
     width: 48%;
