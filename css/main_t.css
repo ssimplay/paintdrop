@@ -1,26 +1,93 @@
-div, .sto figure {
+#header .h_inner, #footer .f_inner, .thum, .btn, .sub1 ul, .sub1_2 ul, .w_btn, .work {
   width: 98%;
-  margin: 60px 1%; }
+  margin: 0 1%; }
 
-.cha ul li {
+/* header */
+#header {
+  width: 100%; }
+
+/* footer */
+/* main */
+.thum li {
   width: 40%;
-  margin: 20px 4%; }
+  margin: 20px 5%; }
+  .thum li img {
+    width: 100%;
+    display: inline-block; }
+  .thum li a {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; }
 
-.sto {
-  background: linear-gradient(to left, #fff 50%, #fff5bf 50%); }
-  .sto figure img {
-    float: none; }
-  .sto figure figcaption {
-    float: none;
-    text-align: center; }
+.title {
+  width: 100%; }
 
-.qa ul li {
-  float: none;
-  width: 36%;
-  margin: 20px 32%; }
+.btn {
+  margin: 40px 1%; }
+  .btn a {
+    padding: 12px 10%; }
 
-.gal ul {
-  width: 70%;
-  margin: 0 15%; }
+/* sub1 */
+.sub1 ul, .sub1_2 ul {
+  box-sizing: border-box;
+  padding: 0 5%; }
+
+.car li span {
+  font-size: 1.1em;
+  padding: 12px 5%;
+  width: 66%; }
+
+.ski li span {
+  font-size: 1.1em; }
+
+.ski1 span b {
+  padding-left: 28em; }
+
+.ski2 span b {
+  padding-left: 28em; }
+
+.ski3 span b {
+  padding-left: 30em; }
+
+.ski4 span b {
+  padding-left: 28em; }
+
+.ski5 span b {
+  padding-left: 31em; }
+
+.ski6 span b {
+  padding-left: 24em; }
+
+.ski7 span b {
+  padding-left: 20em; }
+
+/* sub2 */
+.w_btn {
+  text-align: center; }
+
+.w_inner {
+  width: 400%; }
+  .w_inner > li {
+    width: 25%; }
+    .w_inner > li ul {
+      width: 100%;
+      box-sizing: border-box; }
+      .w_inner > li ul li {
+        width: 40%;
+        margin: 20px 5%; }
+        .w_inner > li ul li img {
+          width: 100%; }
+        .w_inner > li ul li a {
+          width: 100%;
+          height: 100%; }
+
+/* sub3 */
+.sub3 table {
+  width: 90%;
+  margin: 0 5%; }
+  .sub3 table td {
+    font-size: 1.2em; }
+    .sub3 table td s {
+      font-size: 1.2em; }
 
 /*# sourceMappingURL=main_t.css.map */
