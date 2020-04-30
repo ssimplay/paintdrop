@@ -50,6 +50,45 @@ button {
       .gnb li a:hover {
         opacity: 0.5; }
 
+.mnb button {
+  position: fixed;
+  top: 5%;
+  right: 3%;
+  cursor: pointer; }
+  .mnb button:hover {
+    opacity: 0.5; }
+.mnb .mnb_inner {
+  position: fixed;
+  width: 30%;
+  top: 0;
+  right: 0;
+  background: rgba(255, 237, 143, 0.7);
+  height: 100%;
+  margin: 0;
+  text-align: left;
+  padding: 60px 3%;
+  box-sizing: border-box;
+  display: none; }
+  .mnb .mnb_inner li {
+    margin: 12px 0; }
+    .mnb .mnb_inner li.exit {
+      text-align: right;
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 52px;
+      color: #312828;
+      margin-top: 60px;
+      cursor: pointer; }
+      .mnb .mnb_inner li.exit:hover {
+        opacity: 0.5; }
+    .mnb .mnb_inner li a {
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 30px;
+      color: #312828;
+      display: block;
+      padding: 4px 12px; }
+      .mnb .mnb_inner li a:hover {
+        background: #fff; }
+
 #footer {
   background: #fff5bf;
   text-align: center;
