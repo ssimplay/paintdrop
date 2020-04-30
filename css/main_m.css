@@ -1,67 +1,11 @@
-/* header */
-.h_inner {
-  box-sizing: border-box; }
-
-nav button {
-  display: block;
-  cursor: pointer;
-  margin: 0 12px; }
-  nav button:hover {
-    opacity: 0.5; }
-nav ul {
-  position: absolute;
-  height: 100%;
-  width: 50%;
-  top: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  display: none;
-  z-index: 10; }
-  nav ul li {
-    float: none;
-    padding: 12px 8%; }
-
-.exit {
-  display: block; }
-
-/* main */
-.thum li {
+.cha ul li {
   width: 80%;
   margin: 20px 10%; }
 
-/* sub1 */
-.car li p {
-  width: 20%;
-  background-size: 100%;
-  font-size: 1.1em; }
-.car li span {
-  width: 62%; }
-
-.ski li p {
-  width: 20%;
-  background-size: 100%;
-  font-size: 1.1em;
-  line-height: 6.8em; }
-.ski li span {
-  width: 50%; }
-  .ski li span b {
-    display: none; }
-
-/* sub2 */
-.w_inner > li ul li {
-  width: 80%;
-  margin: 20px 10%; }
-
-.w_btn li button {
-  font-size: 1.2em;
-  padding: 14px 12px 8px;
-  margin: 0 8px; }
-
-/* sub3 */
-table th img {
-  width: 100%; }
-table td {
-  padding-left: 2%;
-  font-size: 1.1em; }
+.gal ul li {
+  float: none;
+  width: auto;
+  margin: 16px 0;
+  text-align: center; }
 
 /*# sourceMappingURL=main_m.css.map */
