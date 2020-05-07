@@ -1,3 +1,6 @@
+.gnb {
+  display: none; }
+
 .cha ul li {
   width: 80%;
   margin: 20px 10%; }

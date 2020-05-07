@@ -15,9 +15,29 @@ $(function(){
         
         $('.mnb button').fadeIn();
         $('.mnb_inner').animate({
-            marginRight : '-30%'
+            marginRight : '-40%'
         }, 1000 );
         
+    })
+    
+   
+    
+    /* top 버튼 */
+    $(window).scroll(function(){
+        
+        if( $(this).scrollTop() > 500 ){
+            $('.top').fadeIn();
+        } else {
+            $('.top').fadeOut();
+        }
+        
+    })
+    
+    $('.top').click(function(){
+        $('html, body').animate({
+            scrollTop : 0
+        }, 400);
+        return false;
     })
     
     

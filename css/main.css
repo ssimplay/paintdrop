@@ -68,7 +68,7 @@ button {
   text-align: left;
   padding: 60px 3%;
   box-sizing: border-box;
-  margin-right: -30%; }
+  margin-right: -40%; }
   .mnb .mnb_inner li {
     margin: 12px 0; }
     .mnb .mnb_inner li.exit {
@@ -88,6 +88,14 @@ button {
       padding: 4px 12px; }
       .mnb .mnb_inner li a:hover {
         background: #fff; }
+
+.top {
+  cursor: pointer;
+  position: fixed;
+  right: 3%;
+  bottom: 6%; }
+  .top:hover {
+    opacity: 0.5; }
 
 #footer {
   background: #fff5bf;
