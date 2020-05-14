@@ -222,4 +222,35 @@ p {
 .add {
   display: none; }
 
+.top {
+  display: none; }
+
+/* sub1 */
+.sub_visual {
+  height: 400px;
+  background: #fff5bf; }
+
+.gnb .this {
+  background: #fff; }
+
+.cont {
+  height: 500px; }
+  .cont table {
+    width: 70%;
+    margin: 20px 15%;
+    border: 6px double #a29292;
+    padding: 12px 6px; }
+    .cont table th {
+      background: #fff5bf;
+      padding: 8px 0;
+      font-size: 18px;
+      color: #312828; }
+    .cont table td {
+      text-align: left;
+      padding-left: 28px; }
+      .cont table td a {
+        color: #564646; }
+        .cont table td a:hover {
+          opacity: 0.5; }
+
 /*# sourceMappingURL=main.css.map */
