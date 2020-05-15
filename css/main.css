@@ -211,13 +211,35 @@ p {
   height: 440px; }
 
 .gal ul {
-  overflow: hidden;
-  width: 68%;
-  margin: 0 16%; }
+  overflow: hidden; }
   .gal ul li {
     float: left;
-    width: 48%;
-    margin: 4px 1%; }
+    width: 30%;
+    margin: 0 1%;
+    height: 218px;
+    border: 3px dashed #312828; }
+    .gal ul li a {
+      display: none;
+      position: relative;
+      width: 100%;
+      height: 218px;
+      text-align: center;
+      background: #312828;
+      line-height: 218px;
+      color: #fff5bf;
+      font-size: 28px;
+      font-family: 'NanumBarunpen';
+      font-weight: bold;
+      opacity: 0.85;
+      margin-bottom: -218px;
+      /* transition: all .5s; backface-visibility: hidden;
+      transform: rotateX(180deg); */ }
+      .gal ul li a:hover {
+        /* transform: rotateX(180deg); */ }
+    .gal ul li img {
+      width: 100%; }
+    .gal ul li:hover a {
+      display: block; }
 
 .add {
   display: none; }
