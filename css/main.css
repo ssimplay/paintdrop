@@ -120,7 +120,7 @@ button {
 
 div, .sto figure {
   width: 1280px;
-  margin: 60px auto; }
+  margin: 100px auto; }
 
 .visual {
   background: url(../images/visual.png) no-repeat center bottom, linear-gradient(#fff5bf 80%, #fff 10%);
@@ -135,9 +135,9 @@ h3 {
   color: #b71023;
   display: inline-block;
   padding: 4px 72px;
-  margin: 24px 0;
+  margin: 16px 0 40px;
   font-family: 'Nanum Pen Script', cursive;
-  font-size: 24px;
+  font-size: 26px;
   background: url(../images/title_l.png) no-repeat left center, url(../images/title_r.png) no-repeat right center; }
 
 h4 {
@@ -146,21 +146,23 @@ h4 {
 p {
   color: #717171; }
 
-.cha ul li {
-  display: inline-block;
-  width: 28%;
-  margin: 20px 1%; }
-  .cha ul li figcaption {
-    margin: 20px 0;
-    font-family: 'NanumBarunpen'; }
-    .cha ul li figcaption h4 {
-      margin-bottom: 12px;
-      font-size: 18px; }
-    .cha ul li figcaption p {
-      line-height: 21px;
-      font-size: 16px; }
-  .cha ul li span {
-    display: block; }
+.cha {
+  margin-bottom: 120px; }
+  .cha ul li {
+    display: inline-block;
+    width: 28%;
+    margin: 20px 1%; }
+    .cha ul li figcaption {
+      margin: 20px 0;
+      font-family: 'NanumBarunpen'; }
+      .cha ul li figcaption h4 {
+        margin-bottom: 12px;
+        font-size: 18px; }
+      .cha ul li figcaption p {
+        line-height: 21px;
+        font-size: 16px; }
+    .cha ul li span {
+      display: block; }
 
 .sto {
   background: linear-gradient(to left, #fff 70%, #fff5bf 30%);
@@ -190,15 +192,35 @@ p {
     float: left;
     width: 26%;
     margin: 20px 3.5%;
-    background: #d4d4d4;
     font-family: 'NanumBarunpen';
+    position: relative;
     height: 480px;
     box-sizing: border-box;
-    padding: 60px 0;
     letter-spacing: -1px;
-    cursor: pointer; }
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: all 1s; }
     .qa ul li:hover {
-      background: #fff5bf; }
+      transform: rotateY(180deg); }
+    .qa ul li section {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box; }
+    .qa ul li section.front {
+      position: absolute;
+      transform: rotateY(180deg);
+      z-index: 1;
+      background: #fff5bf;
+      padding: 150px 0; }
+    .qa ul li section.back {
+      position: absolute;
+      transform: rotateY(0deg);
+      z-index: 2;
+      background: #d4d4d4;
+      line-height: 470px; }
+      .qa ul li section.back h4 {
+        font-size: 52px;
+        letter-spacing: 2px; }
     .qa ul li h4 {
       font-size: 20px;
       margin-bottom: 20px; }
