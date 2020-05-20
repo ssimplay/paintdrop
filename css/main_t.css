@@ -16,11 +16,20 @@ div, .sto figure {
 
 .qa ul li {
   float: none;
-  width: 36%;
-  margin: 20px 32%; }
+  width: 60%;
+  margin: 20px 20%; }
+  .qa ul li:hover {
+    transform: rotateY(0deg); }
+  .qa ul li section.front {
+    transform: rotateY(0deg); }
+  .qa ul li section.back {
+    display: none; }
 
 .gal ul {
-  width: 70%;
-  margin: 0 15%; }
+  width: 98%;
+  margin: 0 1%; }
+  .gal ul li {
+    width: 48%;
+    margin: 12px 1%; }
 
 /*# sourceMappingURL=main_t.css.map */
