@@ -122,6 +122,10 @@ div, .sto figure {
   width: 1280px;
   margin: 100px auto; }
 
+::selection {
+  background: chartreuse;
+  color: #312828; }
+
 .visual {
   background: url(../images/visual.png) no-repeat center bottom, linear-gradient(#fff5bf 80%, #fff 10%);
   height: 1000px;
