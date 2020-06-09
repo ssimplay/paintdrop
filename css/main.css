@@ -120,7 +120,8 @@ button {
 
 div, .sto figure {
   width: 1280px;
-  margin: 100px auto; }
+  margin: 100px auto;
+  padding: 20px 0; }
 
 ::selection {
   background: chartreuse;
