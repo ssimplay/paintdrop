@@ -1,4 +1,12 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+.nanumpenscript * {
+  font-family: 'Nanum Pen Script', cursive; }
+
+@font-face {
+  font-family: 'NanumBarunpen';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 * {
   margin: 0;
   padding: 0;
@@ -17,16 +25,9 @@ a {
 
 button {
   background: none;
-  border: 0; }
+  border: 0;
+  font-family: 'NanumBarunpen'; }
 
-.nanumpenscript * {
-  font-family: 'Nanum Pen Script', cursive; }
-
-@font-face {
-  font-family: 'NanumBarunpen';
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
 #header {
   position: absolute;
   width: 100%; }
@@ -264,6 +265,20 @@ p {
       height: 100%; }
     .gal ul li:hover a {
       display: block; }
+.gal .more {
+  margin: 24px 0;
+  font-size: 20px;
+  background: #fff5bf;
+  padding: 12px 28px;
+  cursor: pointer;
+  color: #312828;
+  font-weight: bold;
+  border: 2px solid #312828;
+  border-radius: 3px; }
+  .gal .more:hover {
+    opacity: 0.5; }
+.gal .m_li {
+  display: none; }
 
 .add {
   display: none; }
