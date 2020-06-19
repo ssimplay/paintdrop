@@ -41,4 +41,12 @@ $(function(){
     })
     
     
+    
+    /* 더보기 버튼 */
+    $('.more').click(function(){
+        $('.m_li').fadeIn(1000);
+        $('.more').fadeOut();
+    })
+    
+    
 });
