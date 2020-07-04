@@ -6,6 +6,10 @@ h1 {
 .gnb {
   display: none; }
 
+.mnb .mnb_inner {
+  width: 40%;
+  margin-right: -60%; }
+
 .visual {
   background-size: 240%; }
 

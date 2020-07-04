@@ -120,7 +120,7 @@ button {
     font-size: 18px;
     letter-spacing: -1px; }
 
-div, .sto figure {
+div, .sto figure, .cont ul {
   width: 1280px;
   margin: 100px auto;
   padding: 20px 0; }
@@ -296,24 +296,17 @@ p {
 .gnb .this {
   background: #fff; }
 
-.cont {
-  height: 500px; }
-  .cont table {
-    width: 70%;
-    margin: 20px 15%;
-    border: 6px double #a29292;
-    padding: 12px 6px; }
-    .cont table th {
-      background: #fff5bf;
-      padding: 8px 0;
-      font-size: 18px;
-      color: #312828; }
-    .cont table td {
-      text-align: left;
-      padding-left: 28px; }
-      .cont table td a {
-        color: #564646; }
-        .cont table td a:hover {
-          opacity: 0.5; }
+.cont ul {
+  overflow: hidden; }
+  .cont ul li {
+    float: left;
+    width: 30%;
+    margin: 12px 1.5%;
+    box-sizing: border-box; }
+    .cont ul li:hover {
+      opacity: 0.5; }
+    .cont ul li a img {
+      width: 100%;
+      border: 1px solid gray; }
 
 /*# sourceMappingURL=main.css.map */
